@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+}
+.LogOut{
+    text-decoration: none;
+    background-color: transparent;
+}
+.Header{
+    height:70px;
+    display: flex;
+    background-color:#FAFAFA;
+    background-color:rgb(182, 172, 172);
+    background-color: whitesmoke;
+    align-items: center;
+    position: sticky;
+    padding: 0.4rem;
+    z-index:100;
+} 
+.Header_Logo{
+    width:45vh;
+    height: auto;
+    object-fit: contain;
+    margin:0 40px;
+    margin-top: 4px;
+}
+
+
+.Header_nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.HeaderOption{
+    display:flex;
+    font-size:large;
+    flex-direction: row;
+    margin-right: 30px;
+    margin-left: 25px;
+    align-items: center;
+    color: black;
+    height: 20px !important;
+
+}
+.button-logout{
+    text-decoration: none;
+    left:90%;
+    position: absolute;
+    cursor: pointer;
+    background-color:rgb(49, 48, 48);
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+.button-logout:hover{
+    background-color:rgba(57,62,70,255);
+
+}
+.link{
+    text-decoration: none;
+}
+.profile-pic{
+    border:0;
+    box-shadow: none;
+    position:absolute;
+    left:85%;
+}
+
+.profile-pic img{
+    width: 45px;
+    height: 40px;
+    margin-top: 0.3rem;
+}
